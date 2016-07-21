@@ -1,6 +1,6 @@
 {
   "name": "prng48",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Pseudo Random Number Generator with 48-bit resolution.",
   "main": "./dist/index.js",
   "scripts": {
@@ -12,7 +12,6 @@
   },
   "keywords": [
     "random",
-    "number",
     "prng"
   ],
   "author": "rogerbf <roger@bergfalk.nu> (http://bergfalk.nu/)",
@@ -42,14 +41,7 @@
       "es2015"
     ]
   },
-  "dependencies": {
-    "babel-cli": "6.11.4",
-    "babel-preset-es2015": "6.9.0",
-    "faucet": "0.0.1",
-    "nodemon": "1.9.2",
-    "rimraf": "2.5.3",
-    "tape": "4.6.0"
-  },
+  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rogerbf/prng48.git"
