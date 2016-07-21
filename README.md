@@ -11,13 +11,13 @@ npm i --save prng48
 const prng = require('prng48')
 
 console.log(prng())
-// 0 - 281474976710655
+// 0 - 281474976710655 e.g. 1453965
 
 console.log(prng(10))
-// 0 - 10
+// 0 - 10 e.g. 7
 
 console.log(prng(100, 150))
-// 100 - 150
+// 100 - 150 e.g. 134
 
 console.log(prng.random())
 // 0 - 1 e.g. 0.8869092848824027
